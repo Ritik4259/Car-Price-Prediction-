@@ -241,6 +241,3 @@ python carpriceprediction.py
 - Produced model performance visualizations for interpretation
 - Demonstrated structured ML workflow suitable for real-world deployment
 
----
-A LinkedIn project post
-Or a version structured for a hiring manager portfolio review
