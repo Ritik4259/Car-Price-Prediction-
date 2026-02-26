@@ -47,8 +47,11 @@ Automobile Dataset from the UCI Machine Learning Repository
 The dataset contains:
 
 26 attributes
+
 Technical specifications
+
 Categorical and numerical variables
+
 Target variable → price
 
 ---
@@ -60,7 +63,9 @@ Target variable → price
 Handled missing values using:
 
 Mean imputation for continuous features
+
 Mode imputation for categorical features
+
 Dropped rows with missing target values
 
 Converted data types appropriately for modeling.
@@ -89,10 +94,10 @@ Performed horsepower binning for categorical analysis.
 
 Performed:
 
-Correlation matrix analysis
-Pearson correlation test
-Heatmaps and scatter plots
-Boxplots for categorical impact
+- Correlation matrix analysis
+- Pearson correlation test
+- Heatmaps and scatter plots
+- Boxplots for categorical impact
 
 Pearson coefficient formula used:
 
@@ -103,9 +108,9 @@ $$
 
 Strong positive correlation observed between:
 
-engine-size and price
-horsepower and price
-curb-weight and price
+- engine-size and price
+- horsepower and price
+- curb-weight and price
 
 ---
 
@@ -115,10 +120,10 @@ curb-weight and price
 
 Linear Regression with:
 
-Train Test Split 70-30
-ColumnTransformer
-OneHotEncoder
-StandardScaler
+- Train Test Split 70-30
+- ColumnTransformer
+- OneHotEncoder
+- StandardScaler
 
 Evaluation metric:
 
@@ -173,24 +178,25 @@ $$
 
 Visualization Techniques:
 
-Actual vs Predicted density plots
-Residual plots
-Actual vs Predicted scatter with ideal fit line
-Pairwise feature relationship plots
+- Actual vs Predicted density plots
+- Residual plots
+- Actual vs Predicted scatter with ideal fit line
+- Pairwise feature relationship plots
 
 ---
 
 # Key Insights
 
-Engine size and horsepower are strong predictors of price.
-Regularization improves generalization performance.
-Feature selection enhances model robustness.
-Proper preprocessing significantly impacts model accuracy.
+- Engine size and horsepower are strong predictors of price.
+- Regularization improves generalization performance.
+- Feature selection enhances model robustness.
+- Proper preprocessing significantly impacts model accuracy.
 
 ---
 
 # Tech Stack
 
+```
 Python
 NumPy
 Pandas
@@ -198,14 +204,16 @@ Matplotlib
 Seaborn
 Scikit-learn
 SciPy
+```
 
 ---
 
 # Project Structure
 
+```
 carpriceprediction.py
 README.md
-
+```
 ---
 
 # How to Run
@@ -227,11 +235,11 @@ python carpriceprediction.py
 
 # Professional Highlights
 
-Built an end-to-end ML regression pipeline
-Implemented statistical validation using Pearson correlation
-Applied feature selection and regularization techniques
-Produced model performance visualizations for interpretation
-Demonstrated structured ML workflow suitable for real-world deployment
+- Built an end-to-end ML regression pipeline
+- Implemented statistical validation using Pearson correlation
+- Applied feature selection and regularization techniques
+- Produced model performance visualizations for interpretation
+- Demonstrated structured ML workflow suitable for real-world deployment
 
 ---
 A LinkedIn project post
